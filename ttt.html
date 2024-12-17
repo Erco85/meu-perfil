@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio Pessoal</title>
+  <link rel="stylesheet" href="styles.css">  
+</head>
+<body>
+  <div class="container">
+    <!-- Barra lateral com a foto de perfil -->
+    <aside class="sidebar">
+      <img src="d:\Portifolio\Imagens\erco.jpg" alt="Foto de Perfil" class="profile-pic">
+      <h1>Erco Dionisio Matavela</h1>
+      <p>Desenvolvedor Web</p>
+      <nav>
+        <ul>
+          <li><a href="#about">Sobre Mim</a></li>
+          <li><a href="#skills">Habilidades</a></li>
+          <li><a href="#projects">Projetos</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <!-- Conteúdo principal -->
+    <main class="content">
+      <!-- Seção Sobre Mim -->
+      <section id="about" class="section">
+        <h2>Sobre Mim</h2>
+        <p>Olá! Sou Erco Dionisio Matavela, formando no Instituto de Transportes e Comunicações, com uma paixão por unir técnica à criatividade. Estou também me formando em informática, com foco em programação, desenvolvendo habilidades em HTML, CSS e outras tecnologias.</p>
+        <p>Além disso, a música ocupa um espaço especial na minha vida: sou baterista e encontro nas batidas e ritmos uma forma de me expressar e me conectar com o mundo. Minha formação no Instituto de Arte e Cultura complementa essa jornada, fortalecendo minha compreensão das manifestações artísticas e culturais.</p>
+        <p>Meu objetivo é integrar essas experiências para criar soluções inovadoras e criativas, seja na tecnologia, na música ou em outros projetos desafiadores.</p>
+      </section>
+
+      <!-- Seção Habilidades -->
+      <section id="skills" class="section">
+        <h2>Habilidades</h2>
+        <div class="skills-grid">
+          <div class="skill">HTML</div>
+          <div class="skill">CSS</div>
+          <div class="skill">Pacote Office</div>
+          <div class="skill">Bateria</div>
+          <div class="skill">Guitarra</div>
+          <div class="skill">Piano</div>
+        </div>
+      </section>
+
+      <!-- Seção Projetos -->
+      <section id="projects" class="section">
+        <h2>Projetos</h2>
+        <div class="project-grid">
+          <div class="project-card">
+            <img src="d:\Portifolio\Imagens\musica.png" alt="Escola de música">
+            <h3>Projeto 1</h3>
+            <p>Abertura de uma escola de música pela paixão à arte.</p>
+          </div>
+          <div class="project-card">
+            <img src="d:\Portifolio\Imagens\mecanica.png" alt="Escola de mecânica">
+            <h3>Projeto 2</h3>
+            <p>Escola de mecânica para ajudar jovens desempregados e explorar minha paixão pela área.</p>
+          </div>
+          <div class="project-card">
+            <img src="d:\Portifolio\Imagens\nnetworking.png" alt="Empresa de telecomunicações">
+            <h3>Projeto 3</h3>
+            <p>Criação de uma empresa de telecomunicações focada em networking.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Seção Contato -->
+      <section id="contact" class="section">
+        <h2>Contato</h2>
+        <form action="https://formspree.io/f/{sua-url}" method="POST">
+          <input type="text" name="name" placeholder="seu nome" required>
+          <input type="email" name="email" placeholder="email" required>
+          <textarea name="message" placeholder="Sua Mensagem" required></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
